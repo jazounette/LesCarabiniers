@@ -1,0 +1,60 @@
+<div class="entete container-fluid">
+   <div class="row">
+      <img class="tireuse" src="Images/tireuse_entete.jpg" alt="">
+      <!-- <img class="ecusson" src="Images/Ecusson.gif" alt=""> -->
+
+      <script type="text/javascript" src="graphiclib.js"></script>
+      <canvas class="ecusson" id="horloge">JC.</canvas>
+
+      <script>
+         graph = new LibGraph ();  
+         larg = 333;   haut = 333;
+         milX = larg/2;   milY = haut/2;
+         decal = .331613;  //19deg en radian, angle de rotation de l'ecusson
+         graph.initcanevas ("horloge", larg, haut);
+         
+         intervalId  = setInterval( dessine , 9999 );
+         var img = new Image();  
+         
+         function sec2rad (seconde) { return ((seconde * Math.PI / 30) - Math.PI/2);  }
+         function heu2rad (heure) { return ((heure * Math.PI / 6) - Math.PI/2);  }
+
+         function dessine (){
+            img.src = 'Images/Ecusson.gif';
+            img.onload = function() { 
+               graph.ctx.drawImage(img, 0, 0, larg, haut);
+               temps = new Date();
+               heure = temps.getHours();
+               minute = temps.getMinutes();
+               seconde = temps.getSeconds();
+               // heure = 0;  minute = 0;  seconde = 0;
+               minR = sec2rad (minute + (seconde/60)) - decal;
+               heuR = heu2rad (heure + (minute/60)) - decal;
+
+               graph.styleTrait (4, 'black'); graph.rempli ('black');
+               for (i=0; i<12; i++) {
+                  iRad = i * Math.PI/6 - decal;
+                  chipo = (Math.cos (iRad));      merguez = (Math.sin (iRad));
+                  if (i%3) graph.ligneABS (milX + 160*chipo, milY + 160*merguez, milX + 155*chipo, milY + 155*merguez);
+                  else graph.cercle (milX + 161*chipo, milY + 161*merguez, 4, true);
+               }
+               
+               graph.styleTrait (6, 'black'); 
+               graph.cercle (milX, milY, 4, true);
+               graph.ligne (milX, milY, 155*(Math.cos (minR)), 155*(Math.sin (minR)));
+               graph.ligne (milX, milY, 122*(Math.cos (heuR)), 122*(Math.sin (heuR)));
+               graph.styleTrait (4, 'white'); graph.rempli ('white');
+               graph.cercle (milX, milY, 3.5, true);
+               graph.ligne (milX, milY, 155*(Math.cos (minR)), 155*(Math.sin (minR)));
+               graph.ligne (milX, milY, 122*(Math.cos (heuR)), 122*(Math.sin (heuR)));
+               graph.styleTrait (5, 'red');
+               chipo = (Math.cos (heuR)); merguez = (Math.sin (heuR));
+               graph.ligneABS (milX + 99*chipo, milY + 99*merguez, milX + 122*chipo, milY + 122*merguez);
+            };
+         }
+         dessine();
+
+      </script>
+   </div>
+</div>
+

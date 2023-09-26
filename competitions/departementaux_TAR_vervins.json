@@ -1,0 +1,60 @@
+{ 
+   "commentaire" : "",
+   "evenement" : "Départementaux T.A.R.",
+   "lieu" : "Vervins",
+   "date" : "",
+   "discipline" : [
+      { "nom" : "carabine 22 LR" ,
+      "resultat": [ 
+         ["place","nom","prénom","club","résultat","catégorie"],
+         ["1","Camus","Marc","Association Tir Harly","175","F1"],
+         ["2","Camus","Gerard","Association Tir Harly","175","F1"],
+         ["3","Dautreme","Fabrice","Carabiniers Saint-Quentinois","173","F1"],
+         ["4","Marcoin","Luc","Société de tir de Laon","160","F1"],
+         ["5","Gautier","Joël","Association tir Harly","36","F1"]    ]
+      }, 
+      { "nom": "Fusil répétition manuelle", 
+      "resultat" : [
+         ["place","nom","prénom","club","résultat","catégorie"],
+         ["1","Cat","Philippe","Société de tir de Guise","147","F1"],
+         ["2","Gautier","Joël","Association tir Harly","142","F1"],
+         ["3","Camus","Marc","Association tir Harly","138","F1"],
+         ["4","Lefevre","Thomas","Le Mousquet","129","F1"],
+         ["5","Valentin","Richard","Le Mousquet","115","F1"],
+         ["6","Deconninck","Robert","Société de tir de Guise","114","F1"],
+         ["7","Marcoin","Luc","Société de tir de Laon","113","F1"],
+         ["8","Hugot","Frédéric","Société de tir de Laon","101","F1"],
+         ["9","Bouvard","Éric","Société de tir de Laon","87","F2"],
+         ["10","Camus","Gérard","Association tir Harly","72","F2"],
+         ["11","Oblet","Michel","Société de tir de Laon","59","F2"],
+         ["12","Jarzynki","François","Société de tir de Laon","39","F2"],
+         ["13","Perroche","Patrick","Le Mousquet","20","F2"]   ]
+      },
+      { "nom": "Pistolet & Revolver", 
+         "resultat" : [
+            ["place","nom","prénom","club","résultat","catégorie"],
+            ["1","Mars","Benoit","Société de tir de Laon","131","F1"],
+            ["2","Mezzaroba","Jean-Batiste","Société de tir de Laon","126","F1"],
+            ["3","Kolodziejezyk","Michel","Société de tir de Laon","113","F1"],
+            ["4","Hugot","Frédéric","Société de tir de Laon","61","F2"],
+            ["5","Gardez","Stéphane","Association tir Harly","54","F2"]   ]
+      },
+      { "nom": "Vitesse militaire", 
+         "resultat" : [
+            ["place","nom","prénom","club","résultat","catégorie"],
+            ["1","Mars","Benois","Société de tir de Laon","158","F1"],
+            ["2","Mezzoroba","Jean-Batiste","Société de tir de Laon","140","F1"],
+            ["3","Hugot","Frédéric","Société de tir de Laon","75","F1"],
+            ["4","Kolodziejezyk","Michel","Société de tir de Laon","45","F2"]   ]
+      },
+      { "nom": "Fusil semi automatique", 
+         "resultat" : [
+            ["place","nom","prénom","club","résultat","catégorie"],
+            ["1","Dautreme","Fabrice","Carabiniers Saint-Quentinois","152","F1"],
+            ["2","Vieville","Philippe","Société de tir de Guise","121","F1"],
+            ["3","Hugot","Frédéric","Société de tir de Laon","102","F1"],
+            ["4","Mars","Benoit","Société de tir de Laon","99","F1"],
+            ["5","Bousquet","Didier","Éspérance Saint-Michel","35","F2"]   ]
+      }
+   ] 
+}

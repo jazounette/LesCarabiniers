@@ -1,0 +1,73 @@
+{ 
+   "commentaire" : "",
+   "evenement" : "Amicale T.A.R.",
+   "lieu" : "",
+   "date" : "2 et 3 octobre 2010",
+   "discipline" : [
+      { "nom" : "810 Fusil repétition manuelle" ,
+      "resultat": [ 
+         ["place","nom","prénom","club","résultat"],
+         ["1","Pondrom","Guillaume","Cat Vaudoy","171"],
+         ["2","Dautreme","Fabrice","Carabiniers Saint-Quentinois","170"],
+         ["3","Yonner","Jean-Pierre","Licourt","163"],
+         ["4","Camus","Marc","Association Tir Harly","158"],
+         ["5","Sanchez","Eduardo","Tir de Guise","156"],
+         ["6","Cat","Philippe","Tir de Guise","154"],
+         ["7","Leonardo","Xavier","Tir de Guise","152"],
+         ["8","Jean","Philippe","Club de tir de Rethel","151"],
+         ["9","Detaille","Philippe","Sport tir Albert","150"],
+         ["9","Labarthe","François","Carabiniers Saint-Quentinois","150"],
+         ["11","Sylvestre","Christian","Association Tir Harly","148"],
+         ["12","Decombe","Virginie","Société de tir de Laon","135"],
+         ["13","Bouvart","Eric","Société de tir de Laon","127"],
+         ["13","Decomble","Thierry","Société de tir de Laon","127"],
+         ["15","Hugot","Frédéric","Société de tir de Laon","123"],
+         ["16","Gautier","Joël","Association Tir Harly","120"],
+         ["17","Jarzynski","François","Société de tir de Laon","116"],
+         ["18","Camus","Gérard","Association Tir Harly","113"],
+         ["19","Pondrom","Claire","Cat Vaudoy","76"]    ]
+      }, 
+      { "nom": "812 Fusil Modifié", 
+      "resultat" : [
+         ["place","nom","prénom","club","résultat"],
+         ["1","Dautreme","Fabrice","Carabiniers Saint-Quentinois","186"],
+         ["2","Detaille","Philippe","Sport tir Albert","177"],
+         ["3","Jean Philippe","","Club de tir de Rethel","168"],
+         ["4","Labarthe","François","Carabiniers Saint-Quentinois","161"],
+         ["5","Léonard","Xavier","Tir de Guise","156"],
+         ["6","Pondrom","Guillaume","Cat Vaudoy","152"],
+         ["7","Camus","Marc","Association Tir Harly","146"],
+         ["8","Yonner","Jean-Pierre","Licourt","140"],
+         ["9","Decombe","Thierry","Société de tir de Laon","19"],
+         ["10","Pondrom","Claire","Cat Vaudoy","17"]   ]
+      },
+      { "nom": "815 Fusil Semi Automatique GC", 
+      "resultat" : [
+         ["place","nom","prénom","club","résultat"],
+         ["1","Labarthe","François","Carabiniers Saint-Quentinois","156"],
+         ["2","Pondrom","Guillaume","Cat Vaudoy","141"],
+         ["3","Gautier","Joël","Association Tir Harly","134"],
+         ["4","Camus","Marc","Association Tir Harly","127"],
+         ["5","Cat Philippe","","Tir de Guise","113"],
+         ["6","Sanchez","Eduardo","Tir de Guise","111"],
+         ["7","Bouvart","Eric","Société de tir de Laon","99"],
+         ["8","Dautreme","Fabrice","Carabiniers Saint-Quentinois","95"],
+         ["9","Camus","Gérard","Association Tir Harly","66"],
+         ["10","Jarzynski","François","Société de tir de Laon","45"]   ]
+      },
+      { "nom": "816 Fusil Semi Automatique PC", 
+      "resultat" : [
+         ["place","nom","prénom","club","résultat"],
+         ["1","Decombre","Virginie","Société de tir de Laon","176"],
+         ["2","Dautreme","Fabrice","Carabiniers Saint-Quentinois","174"],
+         ["3","Detaille","Philippe","Sport tir Albert","163"],
+         ["4","Pondrom","Guillaume","Cat Vaudoy","160"],
+         ["5","Labarthe","François","Carabiniers Saint-Quentinois","157"],
+         ["6","Griffon","Jean-Pierre","Sport tir Albert","142"],
+         ["7","Pernet","Sébastien","L'arquebuse Soissonnaise","138"],
+         ["8","Lethias","Christophe","L'arquebuse Soissonnaise","108"],
+         ["9","Pondrom","Claire","Cat Vaudoy","88"],
+         ["10","Hugot","Frédéric","Société de tir de Laon","72"]   ]
+      }
+   ] 
+}

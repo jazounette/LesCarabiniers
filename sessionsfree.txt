@@ -1,0 +1,1 @@
+pour activer les sessions chez Free.fr, creer un dossier vide sessions à la racine du serveur page perso free.

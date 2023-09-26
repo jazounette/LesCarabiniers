@@ -1,0 +1,49 @@
+@font-face {  font-family: "ubuntu";   src: url("Polices/Ubuntu-Regular.ttf");  }
+@font-face {  font-family: "parisienne";   src: url("Polices/Parisienne-Regular.ttf");  }
+body { 
+   background-color: rgb(20, 35, 104); /* 24, 32, 79 */
+   color: white;
+   font-family: "ubuntu";
+}
+hr { border-color: white; }
+/* div { border: 1px solid white; } */
+.datehist { font-family: "parisienne"; color: red; text-align: center; font-weight: bold; }
+.ecusson {  height: 333px; position: absolute;   top: 0;   left: 0; transition-duration: 3s;} /*width: 21.3%;*/
+.ecusson:hover { transform: translate(20%) rotate(19deg); }
+.ecussonnav {  height: 55px;  position: absolute;  bottom: 0;  left:0;  z-index: -99;  opacity: 0.2; }
+.tireuse { height: 333px;  position: relative;   top: 0px;   left: 0px; border-bottom: 2px solid white; }
+
+.discilogo { width: 88px; } /*#004c86 */
+.rezsoc { width: 77px; }
+.piedpage { background-color: black;}
+.entete { overflow:hidden; }
+.lien:hover { text-decoration: none; } 
+.lien { color: white; }
+.imgW { width: 100%; border-radius: 9px; }
+.infoC { background-color: royalblue; color: black; font-size: small;}
+.CarouF { background-color: rgba(0, 0, 0, .5); border-radius: 11px; }
+.annonce { background-color: royalblue; color: black; text-align: center; }
+/* .menu { font-size: larger;} */
+span.ligne {  display: inline-block; }
+.indent { text-indent: 3em; }
+
+.nav-item { text-align: center; }
+.navbar-nav .nav-item .nav-link { color:black; }
+.navbar-nav .nav-item .nav-link:focus { color:black; }
+.navbar-nav .nav-item.active .nav-link { color: white; background-color:  rgb(20, 35, 104); border-radius: 11px; }
+.navbar-nav .nav-item:hover .nav-link { color: white; background-color:  rgb(20, 35, 104); border-radius: 11px; }
+.dropdown-item:hover { color: white; background-color:  rgb(20, 35, 104);}
+.carousel-control-prev-icon, .carousel-control-next-icon { background-color: black; }
+.card { background-color: royalblue; }
+.card-header { background-color: black; }
+.card-body { color: black; }
+.btn-link, .btn-link:visited, .btn-link:focus { color: white; text-decoration: none; }
+.btn-link:hover { color:black; background-color: white; text-decoration: none; }
+.tabresult tr:hover td { background-color:green; color: black; }
+.tabresult tr:nth-child(even) { background-color:rgb(43, 81, 196); }
+.tabresult tr:nth-child(1), .tabresult tr:nth-child(1):hover { background-color:white; }
+@media (max-width: 576px) { .tabresult {  font-size: 0.8rem;  } }
+
+.fancy-toggler.navbar-toggler .navbar-toggler-icon { background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0, 0, 0, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E"); }
+.fancy-toggler.navbar-toggler { border-color: black; }
+
